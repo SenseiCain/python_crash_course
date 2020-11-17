@@ -44,9 +44,11 @@ def make_pizza(*toppings):
 # make_pizza('cheese', 'pepperoni', 'mushrooms')
 
 # Keyword Args
+# Use when unsure of how many key-values pairs will be passed in
 # **kwargs
 def build_profile(first, last, **user_info):
 	user_info['first_name'] = first
 	user_info['last_name'] = last
 	return user_info
-print(build_profile('Christian', 'Cain', hometown='Richwood'))
+# print(build_profile('Christian', 'Cain', hometown='Richwood'))
+
